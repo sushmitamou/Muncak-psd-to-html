@@ -1,0 +1,185 @@
+html {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  background: #fbfcfc !important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+  color: #263238 !important;
+  font-weight: 500 !important;
+  line-height: 40px !important;
+}
+
+.card-title {
+  font-size: 1.25rem !important;
+  font-weight: bold !important;
+  color: #263238;
+}
+
+.medium-font {
+  font-size: 2.25rem;
+  font-weight: bold !important;
+  color: #263238;
+  text-align: center;
+}
+
+button {
+  border-radius: 50px;
+  padding: 20px 50px;
+  border: none;
+  color: #fff;
+}
+
+header {
+  background: url(../images/header.jpg) no-repeat;
+  height: 1048px !important;
+  padding: 75px 0 !important;
+  background-size: 100% !important;
+}
+
+header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.125rem !important;
+  font-weight: bold !important;
+  color: #1c2056;
+}
+
+header nav {
+  padding: 0 13% !important;
+}
+
+header nav ul li a {
+  color: #fff !important;
+}
+
+header .shape-1 {
+  height: 11.9%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+header .header-content button {
+  background: #2870db;
+}
+
+header .left {
+  float: left;
+  margin-right: 10%;
+}
+
+.go-hiking {
+  background: url(../images/section-2.jpg) no-repeat;
+  background-size: 100%;
+  height: 2330px;
+  padding-top: 70px;
+}
+
+.go-hiking .all-cards .medium-font {
+  margin-bottom: 100px;
+}
+
+.go-hiking .all-cards {
+  margin-bottom: 220px;
+}
+
+.go-hiking .card {
+  padding: 45px !important;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 10px 10px 0 solid #e0e9f3 !important;
+          box-shadow: 0 10px 10px 0 solid #e0e9f3 !important;
+}
+
+.go-hiking .row .icon {
+  text-align: center !important;
+  margin-bottom: 55px;
+}
+
+.go-hiking #icon-2, .go-hiking #icon-3 {
+  margin-top: -150px !important;
+}
+
+.go-hiking #card-btn {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-65%, 50%);
+          transform: translate(-65%, 50%);
+}
+
+.go-hiking button {
+  background-color: #2870db;
+}
+
+.go-hiking .info {
+  margin-top: 90px;
+}
+
+.protecting-section {
+  background: url(../images/section-3.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.protecting-section .medium-font {
+  padding: 0px 0 100px;
+}
+
+.protecting-section .card-deck {
+  padding-bottom: 200px;
+}
+
+.protecting-section .card {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px solid #131212 !important;
+          box-shadow: 10px solid #131212 !important;
+  border: none !important;
+}
+
+footer {
+  background: url(../images/footer.jpg) no-repeat;
+  background-size: 100%;
+  padding: 0 13%;
+}
+
+footer p {
+  color: #fff !important;
+}
+
+footer .subscribe-section {
+  background: url(../images/subscribe.jpg) no-repeat;
+  background-size: 100%;
+  padding: 80px 0 !important;
+  border-radius: 20px;
+  height: auto;
+}
+
+footer .subscribe-section input {
+  width: 31% !important;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+}
+
+footer .subscribe-section .medium-font {
+  color: #fff !important;
+  padding-bottom: 80px;
+}
+
+footer .subscribe-section button {
+  margin-top: 40px;
+}
+
+footer .bold-small-font {
+  font-weight: bold !important;
+}
+/*# sourceMappingURL=index.css.map */
