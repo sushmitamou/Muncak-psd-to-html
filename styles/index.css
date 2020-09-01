@@ -42,8 +42,7 @@ button {
 }
 
 header {
-  background: url(../images/header.jpg) no-repeat;
-  height: 1048px !important;
+  background: url(../images/background-1.jpg) no-repeat;
   padding: 75px 0 !important;
   background-size: 100% !important;
 }
@@ -79,11 +78,33 @@ header .left {
   margin-right: 10%;
 }
 
+header .navbar-light .navbar-toggler {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem !important;
+}
+
+header .navbar-toggler {
+  background-color: #a6e2fa;
+}
+
+header nav .login-btn {
+  background: #fff;
+  color: #1c2056 !important;
+  padding: 0px 0px !important;
+  height: 40px !important;
+  width: 80px !important;
+  margin-bottom: 10px !important;
+}
+
 .go-hiking {
   background: url(../images/section-2.jpg) no-repeat;
   background-size: 100%;
-  height: 2330px;
   padding-top: 70px;
+  margin-bottom: 115px;
 }
 
 .go-hiking .all-cards .medium-font {
@@ -125,6 +146,10 @@ header .left {
   margin-top: 90px;
 }
 
+.go-hiking .info .medium-font {
+  color: #2870db !important;
+}
+
 .protecting-section {
   background: url(../images/section-3.jpg) no-repeat;
   background-size: 100%;
@@ -147,7 +172,7 @@ header .left {
 
 footer {
   background: url(../images/footer.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding: 0 13%;
 }
 
@@ -157,10 +182,10 @@ footer p {
 
 footer .subscribe-section {
   background: url(../images/subscribe.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding: 80px 0 !important;
   border-radius: 20px;
-  height: auto;
+  margin-bottom: 90px;
 }
 
 footer .subscribe-section input {
@@ -177,9 +202,121 @@ footer .subscribe-section .medium-font {
 
 footer .subscribe-section button {
   margin-top: 40px;
+  background-color: #00aeff !important;
 }
 
 footer .bold-small-font {
   font-weight: bold !important;
+}
+
+@media screen and (max-width: 1440px) {
+  .medium-font {
+    font-size: 2rem;
+  }
+  .go-hiking .all-cards {
+    margin-bottom: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2.50rem !important;
+  }
+  header nav ul li a {
+    color: #263238 !important;
+  }
+  header nav {
+    padding: 0 5% !important;
+  }
+  .medium-font {
+    font-size: 1.50rem !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+  .protecting-section .card-deck {
+    padding-bottom: 100px;
+  }
+  footer {
+    background: none;
+  }
+  footer p {
+    color: #263238 !important;
+  }
+  footer .medium-font {
+    font-size: 1.25rem !important;
+  }
+  footer .subscribe-section {
+    padding: 20px 0 !important;
+    margin-bottom: 90px;
+  }
+  footer .subscribe-section .medium-font {
+    color: #fff !important;
+    padding-bottom: 0px;
+  }
+  footer .subscribe-section input {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 0.90rem;
+  }
+  .medium-font {
+    font-size: 1.15rem !important;
+  }
+  header {
+    padding: 10px 0 !important;
+  }
+  header h1 {
+    font-size: 2.10rem !important;
+  }
+  .go-hiking .card {
+    padding: 0px !important;
+  }
+  .go-hiking .card .row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .go-hiking #card-btn {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-65%, 50%);
+    transform: translate(-50%, 40%);
+  }
+  .go-hiking .icon img {
+    width: 100px;
+    height: 100px;
+  }
+  .go-hiking #icon-2, .go-hiking #icon-3 {
+    margin-top: 50px !important;
+  }
+  .go-hiking .col-sm {
+    margin-bottom: 50px !important;
+  }
+  .go-hiking .col-6 {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .protecting-section .medium-font {
+    padding: 0px 0 30px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

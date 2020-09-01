@@ -1,0 +1,46 @@
+header{
+    background: url(../images/background-1.jpg) no-repeat;
+    padding: 75px 0 !important;
+    background-size: 100% !important;
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3.125rem !important;
+        font-weight: bold !important;
+        color:  $nevy-blue;
+    }
+    nav{
+        padding: 0 13% !important;
+    }
+    nav ul li a{
+        color:  $white !important;
+    }
+    .shape-1{
+        height: 11.9%;
+        display: flex !important;
+    }
+    .header-content button{
+        background: $blue;
+    }
+    .left{
+        float: left;
+        margin-right: 10%;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem !important;
+    }
+    .navbar-toggler {
+        background-color: #a6e2fa;
+    }
+    nav .login-btn{
+        background: #fff;
+        color: #1c2056 !important;
+        padding: 0px 0px !important;
+        height: 40px !important;
+        width: 80px !important;
+        margin-bottom: 10px !important;
+    }
+}

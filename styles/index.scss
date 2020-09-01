@@ -1,3 +1,4 @@
+
 html{
     width: 100% !important;
     margin: 0 !important;
@@ -11,6 +12,7 @@ body{
     overflow-x: hidden !important;
     background: #fbfcfc !important;
 }
+
 
 $nevy-blue: #1c2056;
 $white: #fff;
@@ -44,8 +46,7 @@ button{
 }
 
 header{
-    background: url(../images/header.jpg) no-repeat;
-    height: 1048px !important;
+    background: url(../images/background-1.jpg) no-repeat;
     padding: 75px 0 !important;
     background-size: 100% !important;
     h1{
@@ -71,13 +72,32 @@ header{
         float: left;
         margin-right: 10%;
     }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem !important;
+    }
+    .navbar-toggler {
+        background-color: #a6e2fa;
+    }
+    nav .login-btn{
+        background: #fff;
+        color: #1c2056 !important;
+        padding: 0px 0px !important;
+        height: 40px !important;
+        width: 80px !important;
+        margin-bottom: 10px !important;
+    }
 }
+
 
 .go-hiking{
     background: url(../images/section-2.jpg) no-repeat;
     background-size: 100%;
-    height: 2330px;
     padding-top: 70px;
+    margin-bottom: 115px;
 
     .all-cards .medium-font{
         margin-bottom: 100px;
@@ -98,7 +118,6 @@ header{
         margin-top: -150px !important;
     }
     #card-btn{
-        // text-align: center !important;
         top: 50%;
         left: 50%;
         transform: translate(-65%, 50%);
@@ -109,9 +128,11 @@ header{
     }
     .info{
         margin-top: 90px;
+        .medium-font{
+            color: $blue !important;
+        }
     }
 }
-
 
 .protecting-section{
     background: url(../images/section-3.jpg) no-repeat;
@@ -132,17 +153,17 @@ header{
 
 footer{
     background: url(../images/footer.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 0 13%;
     p{
         color: #fff !important;
     }
     .subscribe-section{
         background: url(../images/subscribe.jpg) no-repeat;
-        background-size: 100%;
+        background-size: cover;
         padding: 80px 0 !important;
         border-radius: 20px;
-        height: auto;
+        margin-bottom: 90px;
 
         input{
             width: 31% !important;
@@ -156,10 +177,122 @@ footer{
         }
         button{
             margin-top: 40px;
+            background-color: #00aeff !important;
         }
     }
     .bold-small-font{
         font-weight: bold !important;
     }
+
+}
+
+
+@media screen and (max-width: 1440px){
+    .medium-font {
+        font-size: 2rem;
+    }
+    .go-hiking .all-cards {
+        margin-bottom: 100px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    header {
+        h1 {
+            font-size: 2.50rem !important;
+        }
+        nav ul li a {
+            color: $dark-grey !important;
+        }
+        nav{
+            padding: 0 5% !important;
+        }
+    } 
+    .medium-font {
+        font-size: 1.50rem !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+    .protecting-section{
+        .card-deck {
+            padding-bottom: 100px;
+        }
+    } 
+    footer{
+        background: none;
+        p{
+            color: $dark-grey !important;
+        }
+        .medium-font {
+            font-size: 1.25rem !important;
+        }
+        .subscribe-section{
+            padding: 20px 0 !important;
+            margin-bottom: 90px;
+            .medium-font {
+                color: #fff !important;
+                padding-bottom: 0px;
+            }
+            input {
+                width: 60% !important;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    p {
+        font-size: 0.90rem;
+    }
+    .medium-font {
+        font-size: 1.15rem !important;
+    }
+    header {
+        padding: 10px 0 !important;
+
+        h1 {
+            font-size: 2.10rem !important;
+        }
+    }
+    .go-hiking{
+        .card{
+            padding: 0px !important;
+            .row{
+                display: flex !important;
+                flex-direction: column !important;
+            }   
+        }
+        #card-btn {
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-65%, 50%);
+            transform: translate(-50%, 40%);
+        }
+        .icon img{
+            width: 100px;
+            height: 100px;
+        }
+        #icon-2, #icon-3 {
+            margin-top: 50px !important;
+        }
+        .col-sm{
+            margin-bottom: 50px !important;
+        }
+        .col-6 {
+            width: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+   }
+   .protecting-section{
+    .medium-font {
+        padding: 0px 0 30px;
+    }
+   }
+    
 
 }

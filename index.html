@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <title>Muncak</title>
   </head>
   <body>
@@ -28,13 +30,15 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Go Hiking</a>
+            <a class="nav-link" href="#go-hiking">Go Hiking</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="#">
+              <button class="login-btn">Login</button>
+            </a>
           </li>
         </ul>
       </div>
@@ -44,9 +48,9 @@
 
   <!-- 
   <div class="shape-1"> -->
-    <div class="left">
+    <!-- <div class="left">
       <img src="images/shape-1.jpg" alt="">
-    </div>
+    </div> -->
     <div class="right">
       <div class="container">
         <!--header content start-->
@@ -69,7 +73,7 @@
   <!--header end-->
 
   <!--go hiking start-->
-  <div class="go-hiking">
+  <div class="go-hiking" id="go-hiking">
     <div class="container">
       <p class="medium-font">We envision a world  where everyone <br>
         has permanent access to a hiking trail
@@ -138,7 +142,7 @@
       <!--all-cards-->
 
       <!--supprt section start-->
-      <p class="medium-font">h the support of our members,  and partners, we've <br>
+      <p class="medium-font">With the support of our members,  and partners, we've <br>
         improved trail access for millions of people
       </p> 
 
@@ -167,7 +171,7 @@
   <!--go hiking end-->
 
   <!--protection section start-->
-  <div class="protecting-section">
+  <div class="protecting-section" id="about">
     <div class="container">
       <p class="medium-font">
         Protecting Trails: Current News and Issues
@@ -276,6 +280,9 @@
   </footer>
   <!--footer end-->
 
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

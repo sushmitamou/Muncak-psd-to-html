@@ -1,0 +1,16 @@
+.protecting-section{
+    background: url(../images/section-3.jpg) no-repeat;
+    background-size: 100%;
+
+    .medium-font{
+        padding: 0px 0 100px;
+    }
+    .card-deck{
+        padding-bottom: 200px;
+    }
+    .card{
+        border-radius: 20px;
+        box-shadow: 10px solid rgb(19, 18, 18) !important;
+        border: none !important;
+    }
+}
