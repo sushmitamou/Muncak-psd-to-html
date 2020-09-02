@@ -88,7 +88,7 @@ header .navbar-expand-lg .navbar-nav .nav-link {
 }
 
 header .navbar-toggler {
-  background-color: #a6e2fa;
+  background-color: #a6e2fa !important;
 }
 
 header nav .login-btn {
@@ -227,6 +227,20 @@ footer .bold-small-font {
   }
   header nav {
     padding: 0 5% !important;
+  }
+  header .navbar-collapse {
+    background: -webkit-gradient(linear, left top, right top, color-stop(19%, #03409c), to(#7fcff0));
+    background: linear-gradient(90deg, #03409c 19%, #7fcff0 100%);
+    text-align: center !important;
+    opacity: 0.9 !important;
+  }
+  header .navbar-collapse ul li a {
+    color: #fff !important;
+  }
+  header nav button {
+    padding: 0px 0px !important;
+    height: 30px !important;
+    width: 70px !important;
   }
   .medium-font {
     font-size: 1.50rem !important;

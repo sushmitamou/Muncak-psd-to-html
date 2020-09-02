@@ -80,7 +80,7 @@ header{
         padding-right: 2rem !important;
     }
     .navbar-toggler {
-        background-color: #a6e2fa;
+        background-color: #a6e2fa !important;
     }
     nav .login-btn{
         background: #fff;
@@ -205,6 +205,19 @@ footer{
         }
         nav{
             padding: 0 5% !important;
+        }
+        .navbar-collapse {
+            background: linear-gradient(90deg, rgba(3,64,156,1) 19%, rgba(127,207,240,1) 100%);
+            text-align: center !important;
+            opacity: 0.9 !important;
+        }
+        .navbar-collapse ul li a{
+            color: #fff !important;
+        }
+        nav button{
+            padding: 0px 0px !important;
+            height: 30px !important;
+            width: 70px !important;
         }
     } 
     .medium-font {
